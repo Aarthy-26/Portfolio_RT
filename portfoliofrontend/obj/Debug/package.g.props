@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">portfolio-frontend</PackageJsonName>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">1.0.0</PackageJsonVersion>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonDependenciesTailwindcssForms Condition="$(PackageJsonDependenciesTailwindcssForms) == ''">^0.5.9</PackageJsonDependenciesTailwindcssForms>
+    <PackageJsonDependenciesTailwindcssTypography Condition="$(PackageJsonDependenciesTailwindcssTypography) == ''">^0.5.15</PackageJsonDependenciesTailwindcssTypography>
+    <PackageJsonDependenciesAutoprefixer Condition="$(PackageJsonDependenciesAutoprefixer) == ''">^10.4.20</PackageJsonDependenciesAutoprefixer>
+    <PackageJsonDependenciesFramerMotion Condition="$(PackageJsonDependenciesFramerMotion) == ''">^11.15.0</PackageJsonDependenciesFramerMotion>
+    <PackageJsonDependenciesLucideReact Condition="$(PackageJsonDependenciesLucideReact) == ''">^0.468.0</PackageJsonDependenciesLucideReact>
+    <PackageJsonDependenciesPostcss Condition="$(PackageJsonDependenciesPostcss) == ''">^8.4.49</PackageJsonDependenciesPostcss>
+    <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^18.2.0</PackageJsonDependenciesReact>
+    <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^18.2.0</PackageJsonDependenciesReactDom>
+    <PackageJsonDependenciesReactIntersectionObserver Condition="$(PackageJsonDependenciesReactIntersectionObserver) == ''">^9.14.0</PackageJsonDependenciesReactIntersectionObserver>
+    <PackageJsonDependenciesReactScripts Condition="$(PackageJsonDependenciesReactScripts) == ''">^5.0.1</PackageJsonDependenciesReactScripts>
+    <PackageJsonDependenciesTailwindcss Condition="$(PackageJsonDependenciesTailwindcss) == ''">^3.4.17</PackageJsonDependenciesTailwindcss>
+    <PackageJsonDependenciesTypescript Condition="$(PackageJsonDependenciesTypescript) == ''">^4.9.5</PackageJsonDependenciesTypescript>
+    <PackageJsonDependenciesYarn Condition="$(PackageJsonDependenciesYarn) == ''">^1.22.22</PackageJsonDependenciesYarn>
+    <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">^18.0.28</PackageJsonDevdependenciesTypesReact>
+    <PackageJsonDevdependenciesTypesReactDom Condition="$(PackageJsonDevdependenciesTypesReactDom) == ''">^18.0.11</PackageJsonDevdependenciesTypesReactDom>
+    <PackageJsonDevdependenciesFileLoader Condition="$(PackageJsonDevdependenciesFileLoader) == ''">^6.2.0</PackageJsonDevdependenciesFileLoader>
+    <PackageJsonScriptsStart Condition="$(PackageJsonScriptsStart) == ''">react-scripts start</PackageJsonScriptsStart>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">react-scripts build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsTest Condition="$(PackageJsonScriptsTest) == ''">react-scripts test</PackageJsonScriptsTest>
+    <PackageJsonScriptsEject Condition="$(PackageJsonScriptsEject) == ''">react-scripts eject</PackageJsonScriptsEject>
+    <PackageJsonEslintconfigExtends Condition="$(PackageJsonEslintconfigExtends) == ''">[
+  "react-app",
+  "react-app/jest"
+]</PackageJsonEslintconfigExtends>
+    <PackageJsonBrowserslistProduction Condition="$(PackageJsonBrowserslistProduction) == ''">[
+  "\u003E0.2%",
+  "not dead",
+  "not op_mini all"
+]</PackageJsonBrowserslistProduction>
+    <PackageJsonBrowserslistDevelopment Condition="$(PackageJsonBrowserslistDevelopment) == ''">[
+  "last 1 chrome version",
+  "last 1 firefox version",
+  "last 1 safari version"
+]</PackageJsonBrowserslistDevelopment>
+  </PropertyGroup>
+</Project>

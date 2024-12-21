@@ -2,6 +2,7 @@
     "name": "portfolio-frontend",
     "version": "1.0.0",
     "private": true,
+    "homepage": "https://aarthy-26.github.io/Portfolio_RT/",
     "dependencies": {
         "@tailwindcss/forms": "^0.5.9",
         "@tailwindcss/typography": "^0.5.15",
